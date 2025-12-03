@@ -1,4 +1,4 @@
-package com.example.cliniccare.entity
+package com.example.cliniccare.data.local.entity
 
 import androidx.room.Entity
 
