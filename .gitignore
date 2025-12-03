@@ -32,3 +32,40 @@ google-services.json
 
 # Android Profiling
 *.hprof
+cat >> .gitignore << 'EOF'
+# Firebase
+app/google-services.json
+.env
+.env.local
+
+# Android
+.gradle/
+.idea/
+*.iml
+local.properties
+*.apk
+*.aar
+*.so
+*.jnilib
+*.jar
+*.exe
+*.o
+*.a
+*.so
+
+# Build
+build/
+.DS_Store
+
+# Flutter
+health_timer/.dart_tool/
+health_timer/.packages
+health_timer/pubspec.lock
+health_timer/build/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+EOF
