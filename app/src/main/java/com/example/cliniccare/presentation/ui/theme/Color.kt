@@ -1,4 +1,4 @@
-package com.example.cliniccare.ui.theme
+package com.example.cliniccare.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
