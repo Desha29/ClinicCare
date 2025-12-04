@@ -1,4 +1,4 @@
-package com.example.cliniccare.ui.theme
+package com.example.cliniccare.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
